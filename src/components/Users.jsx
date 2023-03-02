@@ -12,11 +12,7 @@ const Users = () => {
     // this is api gateway url   in this api gate we give our lambda function  for ui o be n cloud we upload build folder using 
     //aws s3 sync build/ s3://user-processing-services
     // command to connect aws cli 
-    //$ aws configure
-// AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
-// AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-// Default region name [None]: us-west-2
-// Default output format [None]: json
+  
     const API_URL=' https://web21i3gh1.execute-api.us-east-1.amazonaws.com/dev'
     const [users, setUsers] = useState([]);
 
